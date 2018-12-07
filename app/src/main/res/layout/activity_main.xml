@@ -68,6 +68,7 @@
         app:rippleColor="@color/lighterGreen" />
 
     <com.google.android.material.checkbox.MaterialCheckBox
+        style="@style/margin_left_16dp"
         android:id="@+id/materialCheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -85,18 +86,20 @@
         android:layout_marginTop="@dimen/margin_16dp"
         android:text="@string/material_radio_button_text"
         android:textSize="@dimen/text_size_16sp"
-        app:layout_constraintStart_toEndOf="@+id/materialCheckBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/materialCheckBox" />
 
     <com.google.android.material.switchmaterial.SwitchMaterial
         android:id="@+id/switchMaterial"
-        style="@style/margin_left_8dp"
+        style="@style/margin_right_16dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_16dp"
         android:text="@string/material_switch_text"
         android:textSize="@dimen/text_size_16sp"
-        app:layout_constraintStart_toEndOf="@+id/materialRadioButton"
+
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/materialRadioButton"
         app:switchPadding="@dimen/padding_8dp" />
 
