@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NewMaterialDesignTest</string>
+    <string name="material_card_text_view">Long click me!</string>
+    <string name="material_button_text">Click me!</string>
+    <string name="material_check_box_text">Check me!</string>
+    <string name="material_radio_button_text">Tap me!</string>
+    <string name="material_switch_text">Switch me!</string>
+</resources>

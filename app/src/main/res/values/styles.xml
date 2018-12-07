@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="margin_left_8dp" parent="AppTheme">
+        <item name="android:layout_marginStart">@dimen/margin_8dp</item>
+        <item name="android:layout_marginLeft">@dimen/margin_8dp</item>
+    </style>
+
+    <style name="margin_left_16dp" parent="AppTheme">
+        <item name="android:layout_marginStart">@dimen/margin_16dp</item>
+        <item name="android:layout_marginLeft">@dimen/margin_16dp</item>
+    </style>
+
+    <style name="margin_right_8dp" parent="AppTheme">
+        <item name="android:layout_marginEnd">@dimen/margin_8dp</item>
+        <item name="android:layout_marginRight">@dimen/margin_8dp</item>
+    </style>
+
+    <style name="margin_right_16dp" parent="AppTheme">
+        <item name="android:layout_marginEnd">@dimen/margin_16dp</item>
+        <item name="android:layout_marginRight">@dimen/margin_16dp</item>
+    </style>
+
+</resources>
