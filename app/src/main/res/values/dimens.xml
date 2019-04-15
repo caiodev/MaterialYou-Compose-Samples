@@ -4,20 +4,20 @@
     <!--Margin values-->
     <dimen name="margin_8dp">8dp</dimen>
     <dimen name="margin_16dp">16dp</dimen>
+    <dimen name="margin_64dp">64dp</dimen>
 
     <!--Padding values-->
     <dimen name="padding_8dp">8dp</dimen>
-    <dimen name="padding_16dp">16dp</dimen>
-
-    <!--View sizes-->
-    <dimen name="view_64dp">64sp</dimen>
 
     <!--Text sizes-->
     <dimen name="text_size_16sp">16sp</dimen>
     <dimen name="text_size_20sp">20sp</dimen>
 
-    <!--Generic values-->
-    <dimen name="generic_8dp">8dp</dimen>
-    <dimen name="generic_16dp">16dp</dimen>
+    <!--Radius values-->
+    <dimen name="radius_4dp">4dp</dimen>
+    <dimen name="radius_8dp">8dp</dimen>
+
+    <!--Elevation values-->
+    <dimen name="elevation_8dp">8dp</dimen>
 
 </resources>

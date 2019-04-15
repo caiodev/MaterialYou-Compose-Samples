@@ -1,8 +1,28 @@
 <resources>
+
     <string name="app_name">NewMaterialDesignTest</string>
+
+    <!--TextView value-->
     <string name="material_card_text_view">Long click me!</string>
+
+    <!--MaterialButton value-->
     <string name="material_button_text">Click me!</string>
+
+    <!--MaterialCheckBox value-->
     <string name="material_check_box_text">Check me!</string>
+
+    <!--MaterialRadioButton value-->
     <string name="material_radio_button_text">Tap me!</string>
+
+    <!--MaterialSwitch value-->
     <string name="material_switch_text">Switch me!</string>
+
+    <!--Chip value-->
+    <string name="single_material_chip_text">I\'m a chip</string>
+
+    <!--ChipGroup values-->
+    <string name="first_material_chip_text">We are</string>
+    <string name="second_material_chip_text">part of a</string>
+    <string name="third_material_chip_text">chip group</string>
+
 </resources>

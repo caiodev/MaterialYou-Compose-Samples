@@ -8,24 +8,11 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="margin_left_8dp" parent="AppTheme">
-        <item name="android:layout_marginStart">@dimen/margin_8dp</item>
-        <item name="android:layout_marginLeft">@dimen/margin_8dp</item>
-    </style>
-
-    <style name="margin_left_16dp" parent="AppTheme">
-        <item name="android:layout_marginStart">@dimen/margin_16dp</item>
-        <item name="android:layout_marginLeft">@dimen/margin_16dp</item>
-    </style>
-
-    <style name="margin_right_8dp" parent="AppTheme">
-        <item name="android:layout_marginEnd">@dimen/margin_8dp</item>
-        <item name="android:layout_marginRight">@dimen/margin_8dp</item>
-    </style>
-
-    <style name="margin_right_16dp" parent="AppTheme">
-        <item name="android:layout_marginEnd">@dimen/margin_16dp</item>
-        <item name="android:layout_marginRight">@dimen/margin_16dp</item>
+    <style name="ChipTheme" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="android:checkable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
     </style>
 
 </resources>

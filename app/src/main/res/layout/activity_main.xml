@@ -17,11 +17,11 @@
             android:id="@+id/materialCardView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin_16dp"
+            android:layout_margin="@dimen/margin_8dp"
             android:clickable="true"
             android:focusable="true"
-            app:cardCornerRadius="@dimen/generic_8dp"
-            app:cardElevation="@dimen/generic_8dp"
+            app:cardCornerRadius="@dimen/radius_8dp"
+            app:cardElevation="@dimen/elevation_8dp"
             app:cardPreventCornerOverlap="false"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -61,14 +61,14 @@
         <com.google.android.material.button.MaterialButton
             android:id="@+id/materialButton"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/view_64dp"
-            android:layout_margin="@dimen/margin_16dp"
-            android:background="@color/darkGreen"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_8dp"
+            android:background="@color/colorAccent"
             android:text="@string/material_button_text"
             android:textAllCaps="false"
             android:textColor="@android:color/white"
             android:textSize="@dimen/text_size_20sp"
-            app:cornerRadius="@dimen/generic_8dp"
+            app:cornerRadius="@dimen/radius_4dp"
             app:layout_constraintEnd_toEndOf="@+id/materialCardView"
             app:layout_constraintStart_toStartOf="@+id/materialCardView"
             app:layout_constraintTop_toBottomOf="@+id/materialCardView"
@@ -76,38 +76,76 @@
 
         <com.google.android.material.checkbox.MaterialCheckBox
             android:id="@+id/materialCheckBox"
-            style="@style/margin_left_16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_16dp"
             android:text="@string/material_check_box_text"
             android:textSize="@dimen/text_size_16sp"
-            app:layout_constraintStart_toStartOf="@+id/materialButton"
+            app:layout_constraintStart_toStartOf="@id/materialButton"
             app:layout_constraintTop_toBottomOf="@+id/materialButton" />
 
         <com.google.android.material.radiobutton.MaterialRadioButton
             android:id="@+id/materialRadioButton"
-            style="@style/margin_left_8dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_16dp"
             android:text="@string/material_radio_button_text"
             android:textSize="@dimen/text_size_16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/materialCheckBox" />
+            app:layout_constraintTop_toBottomOf="@id/materialCheckBox" />
 
         <com.google.android.material.switchmaterial.SwitchMaterial
             android:id="@+id/switchMaterial"
-            style="@style/margin_right_16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_16dp"
             android:text="@string/material_switch_text"
             android:textSize="@dimen/text_size_16sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/materialRadioButton"
+            app:layout_constraintEnd_toEndOf="@id/materialButton"
+            app:layout_constraintTop_toBottomOf="@id/materialRadioButton"
             app:switchPadding="@dimen/padding_8dp" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/materialChip"
+            style="@style/ChipTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/single_material_chip_text"
+            app:chipBackgroundColor="@color/chip_selector"
+            app:layout_constraintStart_toStartOf="@id/materialCheckBox"
+            app:layout_constraintTop_toBottomOf="@id/switchMaterial" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/materialChipGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_8dp"
+            android:layout_marginLeft="@dimen/margin_8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/materialChip"
+            app:singleSelection="true">
+
+            <com.google.android.material.chip.Chip
+                style="@style/ChipTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/first_material_chip_text"
+                app:chipBackgroundColor="@color/chip_selector" />
+
+            <com.google.android.material.chip.Chip
+                style="@style/ChipTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/second_material_chip_text"
+                app:chipBackgroundColor="@color/chip_selector" />
+
+            <com.google.android.material.chip.Chip
+                style="@style/ChipTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/third_material_chip_text"
+                app:chipBackgroundColor="@color/chip_selector" />
+
+        </com.google.android.material.chip.ChipGroup>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
