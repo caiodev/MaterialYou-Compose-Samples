@@ -24,5 +24,7 @@
     <string name="first_material_chip_text">We are</string>
     <string name="second_material_chip_text">part of a</string>
     <string name="third_material_chip_text">chip group</string>
+    <string name="fourth_material_chip_text">me too</string>
+    <string name="fifth_material_chip_text">and me</string>
 
 </resources>

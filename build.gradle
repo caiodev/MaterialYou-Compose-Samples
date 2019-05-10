@@ -4,10 +4,10 @@ buildscript {
 
     ext {
         //AppCompat
-        appCompat = '1.1.0-alpha04'
+        appCompat = '1.1.0-alpha05'
 
         //ConstraintLayout
-        constraintLayout = '2.0.0-alpha4'
+        constraintLayout = '2.0.0-beta1'
 
         //Espresso
         espresso = '3.1.1-alpha01'
@@ -19,10 +19,10 @@ buildscript {
         junit = '4.12'
 
         //Kotlin
-        kotlin_version = '1.3.30'
+        kotlin_version = '1.3.31'
 
         //MaterialDesign
-        materialDesign = '1.1.0-alpha05'
+        materialDesign = '1.1.0-alpha06'
 
         //TestRunner
         testRunner = '1.1.1-alpha01'
