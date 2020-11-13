@@ -104,7 +104,7 @@
             app:switchPadding="@dimen/padding_8dp" />
 
         <com.google.android.material.chip.Chip
-            android:id="@+id/materialChip"
+            android:id="@+id/chip"
             style="@style/ChipTheme"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -120,7 +120,7 @@
             android:fillViewport="true"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/materialChip">
+            app:layout_constraintTop_toBottomOf="@+id/chip">
 
             <com.google.android.material.chip.ChipGroup
                 android:id="@+id/materialChipGroup"
@@ -128,10 +128,11 @@
                 android:layout_height="wrap_content"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/materialChip"
+                app:layout_constraintTop_toBottomOf="@id/chip"
                 app:singleSelection="true">
 
                 <com.google.android.material.chip.Chip
+                    android:id="@+id/firstChip"
                     style="@style/ChipTheme"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -139,6 +140,7 @@
                     app:chipBackgroundColor="@color/chip_selector" />
 
                 <com.google.android.material.chip.Chip
+                    android:id="@+id/secondChip"
                     style="@style/ChipTheme"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -146,6 +148,7 @@
                     app:chipBackgroundColor="@color/chip_selector" />
 
                 <com.google.android.material.chip.Chip
+                    android:id="@+id/thirdChip"
                     style="@style/ChipTheme"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -153,6 +156,7 @@
                     app:chipBackgroundColor="@color/chip_selector" />
 
                 <com.google.android.material.chip.Chip
+                    android:id="@+id/fourthChip"
                     style="@style/ChipTheme"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -160,6 +164,7 @@
                     app:chipBackgroundColor="@color/chip_selector" />
 
                 <com.google.android.material.chip.Chip
+                    android:id="@+id/fifthChip"
                     style="@style/ChipTheme"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
