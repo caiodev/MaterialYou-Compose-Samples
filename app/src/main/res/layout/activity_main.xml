@@ -175,6 +175,12 @@
 
         </HorizontalScrollView>
 
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/chipList"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </ScrollView>

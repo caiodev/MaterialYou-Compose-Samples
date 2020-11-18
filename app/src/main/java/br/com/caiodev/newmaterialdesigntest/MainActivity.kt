@@ -3,15 +3,27 @@ package br.com.caiodev.newmaterialdesigntest
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
+import br.com.caiodev.newmaterialdesigntest.databinding.ActivityMainBinding
 import com.google.android.material.chip.Chip
-import kotlinx.android.synthetic.main.activity_main.*
 
-class MainActivity : AppCompatActivity(R.layout.activity_main) {
+class MainActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setChipListener(firstChip)
-        setChipListener(chip)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        setupView()
+    }
+
+    private fun setupView() {
+        setChipListener(binding.firstChip)
+        setChipListener(binding.chip)
+
+        binding.chipList.apply {
+            setHasFixedSize(true)
+        }
     }
 
     private fun setChipListener(chip: Chip) {
