@@ -1,5 +1,5 @@
-# NewMaterialDesignTest
-A small project to show some widgets from the new version of Android Material design (NOTE: The new material design version is currently in Alpha, so its use is not recommended in production projects)
+# NewMaterialDesign
+A small project to show some widgets from the new version of the Android Material design library
 
 License
 =======
