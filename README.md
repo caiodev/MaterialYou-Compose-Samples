@@ -1,4 +1,4 @@
-# NewMaterialDesign
+# MaterialYou
 A small project to show some widgets from the new version of the Android Material design library
 
 License
