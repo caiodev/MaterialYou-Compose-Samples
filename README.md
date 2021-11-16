@@ -1,5 +1,5 @@
 # MaterialYou
-A small project to show some widgets from the new version of the Android Material design library
+A small project to show some widgets from MaterialYou(Compose coming soon)
 
 License
 =======
