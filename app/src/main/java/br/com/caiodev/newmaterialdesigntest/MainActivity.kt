@@ -22,7 +22,8 @@ class MainActivity : AppCompatActivity() {
         setChipListener(binding.chip)
 
         binding.chipList.apply {
-            setHasFixedSize(true)
+            adapter = ChipAdapter(listOf("Bread", "Cake", "Pasta", "Pie", "Pizza"))
+            adapter?.notifyDataSetChanged()
         }
     }
 
