@@ -1,4 +1,4 @@
-# MaterialYou
+# MaterialYou & Jetpack Compose
 A small project to show some widgets from MaterialYou(Compose coming soon)
 
 License
