@@ -114,6 +114,7 @@
             app:layout_constraintTop_toBottomOf="@id/switchMaterial" />
 
         <HorizontalScrollView
+            android:id="@+id/chip_scroll_view"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/margin_8dp"
@@ -178,6 +179,10 @@
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/chipList"
             android:layout_width="0dp"
+            android:layout_marginTop="@dimen/margin_8dp"
+            app:layout_constraintStart_toStartOf="@+id/chip_scroll_view"
+            app:layout_constraintEnd_toEndOf="@+id/chip_scroll_view"
+            app:layout_constraintTop_toBottomOf="@+id/chip_scroll_view"
             android:layout_height="wrap_content"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 
