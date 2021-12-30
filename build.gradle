@@ -10,13 +10,13 @@ buildscript {
         constraintLayout = '2.1.2'
 
         //Gradle
-        gradleVersion = '7.0.3'
+        gradleVersion = '7.0.4'
 
         //Kotlin
-        kotlinVersion = '1.6.0'
+        kotlinVersion = '1.6.10'
 
         //MaterialDesign
-        materialDesign = '1.5.0-beta01'
+        materialDesign = '1.6.0-alpha01'
     }
 
     repositories {
