@@ -1,5 +1,5 @@
 # MaterialYou & Jetpack Compose
-A small project to show some widgets from MaterialYou(Compose coming soon)
+A small project to show some widgets from MaterialYou + Compose
 
 License
 =======
