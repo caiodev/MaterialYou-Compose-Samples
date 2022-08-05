@@ -1,6 +1,6 @@
 <resources>
 
-    <string name="app_name">NewMaterialDesignTest</string>
+    <string name="app_name">ComposeMaterialDesign</string>
 
     <!--TextView value-->
     <string name="material_card_text_view">Long click me!</string>
@@ -26,5 +26,9 @@
     <string name="third_material_chip_text">chip group</string>
     <string name="fourth_material_chip_text">me too</string>
     <string name="fifth_material_chip_text">and me</string>
+
+    <!--MainActivity-->
+    <string name="surface_image_content_description">Nature Landscape</string>
+    <string name="surface_image_button_text">Click me!</string>
 
 </resources>

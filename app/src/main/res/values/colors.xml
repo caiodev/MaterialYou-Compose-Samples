@@ -3,8 +3,6 @@
     <color name="colorAccent">#1B5E20</color>
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
-
-    <!--Shades of green-->
     <color name="lighterGreen">#81C784</color>
-
+    <color name="purple_700">#FF3700B3</color>
 </resources>
