@@ -6,11 +6,22 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.aspectRatio
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CornerSize
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material.*
+import androidx.compose.material.ButtonDefaults
+import androidx.compose.material.MaterialTheme
+import androidx.compose.material.Surface
+import androidx.compose.material.Button
+import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -19,8 +30,6 @@ import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import br.com.caiodev.newmaterialdesigntest.extensions.textSizeResource
 import br.com.caiodev.newmaterialdesigntest.ui.theme.NewMaterialDesignTestTheme
 import br.com.caiodev.newmaterialdesigntest.ui.theme.Purple500
@@ -82,9 +91,12 @@ fun ComposeWidgets() {
 
         Spacer(modifier = Modifier.height(dimensionResource(id = R.dimen.size_8dp)))
 
-        Button(enabled = true, onClick = {}, modifier = Modifier.fillMaxWidth(),
-            colors = ButtonDefaults.buttonColors(backgroundColor = Purple500)) {
-            Text(text = stringResource(id = R.string.surface_image_button_text),
+        Button(
+            enabled = true, onClick = {}, modifier = Modifier.fillMaxWidth(),
+            colors = ButtonDefaults.buttonColors(backgroundColor = Purple500)
+        ) {
+            Text(
+                text = stringResource(id = R.string.surface_image_button_text),
                 color = Color.White,
                 fontSize = textSizeResource(id = R.dimen.text_size_14sp)
             )
